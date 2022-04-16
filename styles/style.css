@@ -63,7 +63,7 @@
 .banner-content {
     display: grid;
     grid-template-columns: 8fr 6fr;
-    grid-template-rows: 531px 531px;
+    grid-template-rows: 531px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -89,11 +89,6 @@
     position: absolute;
     bottom: 3.125rem;
     left: 35rem;
-}
-
-#moon {
-    position: absolute;
-    bottom: 3rem;
 }
 
 #circle-1 {
@@ -135,6 +130,11 @@
 
 .banner-image img {
     display: flex;
+}
+
+#moon {
+    position: absolute;
+    bottom: 2rem;
 }
 
 /* Media Queries Banner e Menu */
@@ -248,8 +248,8 @@
 
     #moon {
         position: absolute;
-        bottom: 3rem;
-    }
+        bottom: 2rem;
+    } 
 
     #circle-1 {
         position: absolute;
@@ -272,12 +272,17 @@
 
     #moon {
         position: absolute;
-        bottom: 1.5rem;
+        bottom: 2rem;
     }
     
 }
 @media only screen and (max-width: 470px) {
 
+    #moon {
+        position: absolute;
+        bottom: 1rem;
+    }
+    
     .banner-title h1{
         font-size: 1.5rem;
         line-height: 1.4;

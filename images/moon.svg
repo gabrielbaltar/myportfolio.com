@@ -1,6 +1,6 @@
 <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M10 24C15.5228 24 20 19.5228 20 14C20 8.47715 15.5228 4 10 4C4.47715 4 0 8.47715 0 14C0 19.5228 4.47715 24 10 24Z" fill="url(#paint0_linear_20_21)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M19 20C24.5228 20 29 15.5228 29 10C29 4.47715 24.5228 0 19 0C13.4772 0 9 4.47715 9 10C9 15.5228 13.4772 20 19 20Z" fill="#16181B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19 20C24.5228 20 29 15.5228 29 10C29 4.47715 24.5228 0 19 0C13.4772 0 9 4.47715 9 10C9 15.5228 13.4772 20 19 20Z" fill="#111111"/>
 <defs>
 <linearGradient id="paint0_linear_20_21" x1="19.7537" y1="14" x2="-0.492611" y2="14" gradientUnits="userSpaceOnUse">
 <stop offset="0.140625" stop-color="#A4FBFB"/>
