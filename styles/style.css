@@ -52,17 +52,18 @@
 
 .sectionOne {
   background: var(--background);
-  height: 650px;  
+  height: 600px;  
   padding: 0 4.5rem;
   background-image: url('../images/circle.svg');
   background-repeat: no-repeat;
-  background-position: 275px 0px;
+  background-position: 290px -30px;
   position: relative;
 } 
 
 .banner-content {
     display: grid;
     grid-template-columns: 8fr 6fr;
+    grid-template-rows: 531px 531px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -110,7 +111,8 @@
 #circle-4 {
     position: absolute;
     right: 0px;
-    bottom: 10px;
+    bottom: 3rem;
+    margin-right: 32px;
 }
 
 .banner-button a{
@@ -125,4 +127,151 @@
     color: var(--background);
     font-size: 1rem;
     font-weight: 600;
+}
+
+.button-hanburger-mobile {
+    display: none;
+}
+
+.banner-image img {
+    display: flex;
+}
+
+/* Media Queries Banner e Menu */
+
+@media only screen and (max-width: 1330px) {
+    .sectionOne {
+        background-position: 130px 0px;
+    }
+}
+
+@media only screen and (max-width: 1270px) {
+
+    .sectionOne {
+        background-position: 10px 0px;
+    }
+
+    .banner-title h1 {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+
+    .banner-button a{
+        padding: 1.125rem 2.5rem;
+        width: 248px;
+    }
+
+    .banner-image img{
+        height: 400px;
+    }
+}
+
+@media only screen and  (max-width: 1070px) {
+
+    .menu {
+        padding: 0px 3rem;
+    }
+
+    .sectionOne {
+        padding: 0px 3rem;
+    }
+
+    .menu ul{
+        gap: 1.2rem;
+    }
+
+    .menu ul li:nth-child(5) {
+        padding-right: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .menu {
+        padding: 0px 1.5rem;
+    }
+
+    .sectionOne {
+        padding: 0px 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+
+    .menu ul li {
+        display: none;
+    }
+
+    .button-hanburger-mobile {
+        display: block;
+        padding: 5px 9px;
+        border: 2px solid var(--blue-button);
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .sectionOne {
+        background-position: -50px 0px;
+    }
+
+    .banner-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .sectionOne {
+        background: var(--background);
+        height: 500px;
+    }
+
+    .banner-title {
+        margin-top: 48px;
+    }
+
+    .banner-image {
+        display: none;
+    }
+
+    #start-1 {
+        top: 1rem;
+        position: absolute;
+    }
+
+    #star-2 {
+        position: absolute;
+        bottom: 2rem;
+        left: 5rem;
+    }
+
+    #moon {
+        position: absolute;
+        bottom: 3rem;
+    }
+
+    #circle-1 {
+        position: absolute;
+        bottom: 4rem;
+        left: 9rem;
+    }
+
+    #circle-3 {
+        position: absolute;
+        top: 1.6875rem;
+        right: 5rem;
+    }
+
+    #circle-4 {
+        position: absolute;
+        right: 0px;
+        bottom: 3rem;
+        margin-right: 32px;
+    }
+
+    .banner-title h1{
+        font-size: 1.7rem;
+        line-height: 1.4;
+    }
 }
