@@ -283,4 +283,12 @@
         line-height: 1.4;
     }
 
+    .menu {
+        padding: 0 1.5rem;
+    }
+
+    .sectionOne {
+        padding:  0 1.5rem;
+    }
+
 }
