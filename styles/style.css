@@ -54,7 +54,7 @@
   background: var(--background);
   height: 650px;  
   padding: 0 4.5rem;
-  background-image: url('/images/circle.svg');
+  background-image: url('../images/circle.svg');
   background-repeat: no-repeat;
   background-position: 275px 0px;
   position: relative;
