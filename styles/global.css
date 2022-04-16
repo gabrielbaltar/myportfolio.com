@@ -12,10 +12,11 @@ html {
     --background: #111111;
     --text-color: #ffffff;
     --blue-button: #25E1E1;
+    --border-color: #2D2F31;
 }
 
 .border{
-    border-bottom: 1px solid #2D2F31;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .container {

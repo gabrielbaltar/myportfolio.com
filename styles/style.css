@@ -297,3 +297,62 @@
     }
 
 }
+
+/* Estilização da 3ª seção linguagem e ferramentas */
+
+.tools-container {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    height: 293px;
+    max-width: 100%;
+    background: var(--background);
+}
+
+.tools-content {
+    padding: 0px 4.625rem;
+}
+
+.tools-content h2 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.content-tools {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 610px) {
+    .tools-content h2 {
+        padding-bottom: 3rem;
+    }
+    
+    .tools-container {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .tools-container {
+        height: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 455px) {
+    .tools-content h2 {
+        padding-bottom: 2.5rem;
+        font-size: 1rem;
+    }
+    .tools-container {
+        height: 400px;
+    }
+}
+
