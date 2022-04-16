@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    --background: #16181B;
+    --text-color: #ffffff;
+    --blue-button: #25E1E1;
+}
+
+.border{
+    border-bottom: 1px solid #2D2F31;
+}
+
+.container {
+    max-width: 90rem;
+    margin: 0 auto;
+}

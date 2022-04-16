@@ -1,0 +1,128 @@
+/* Estilização do menu */
+
+.background {
+    background: var(--background);
+}
+
+.menu {
+    height: 5.8125rem;
+    width: 100%;
+    padding: 0 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--background);
+}
+
+.menu ul{
+    display: flex;
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Inter';
+    gap: 2rem;
+    align-items: center;
+}
+
+.menu ul li a {
+    color: var(--text-color);
+}
+
+.menu ul li:nth-child(5) {
+    padding-right: 2rem;
+}
+
+.menu ul li:nth-child(6) {
+    border: 2px solid var(--blue-button);
+    padding: 10px 32px;
+    border-radius: 0.25rem;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--blue-button);
+}
+
+.menu ul li:nth-child(6):hover {
+    background: var(--blue-button);
+    font-weight: 500;
+    color: var(--background);
+}
+
+/* Estilização do banner principal */
+
+.sectionOne {
+  background: var(--background);
+  height: 650px;  
+  padding: 0 4.5rem;
+  background-image: url('/images/circle.svg');
+  background-repeat: no-repeat;
+  background-position: 275px 0px;
+  position: relative;
+} 
+
+.banner-content {
+    display: grid;
+    grid-template-columns: 8fr 6fr;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-title h1 {
+    font-size: 3rem;
+    line-height: 1.3;
+    color: var(--text-color);
+    width: 18ch;
+}
+
+.banner-title span {
+    color: var(--blue-button);
+}
+
+#start-1 {
+    top: 2.875rem;
+    position: absolute;
+}
+
+#star-2 {
+    position: absolute;
+    bottom: 3.125rem;
+    left: 35rem;
+}
+
+#moon {
+    position: absolute;
+    bottom: 3rem;
+}
+
+#circle-1 {
+    position: absolute;
+    bottom: 4rem;
+    left: 25rem;
+}
+
+#circle-3 {
+    position: absolute;
+    top: 1.6875rem;
+    right: 38.75rem;
+}
+
+#circle-4 {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+
+.banner-button a{
+    display: flex;
+    background: var(--blue-button);
+    align-items: center;
+    padding: 1.125rem 3.875rem;
+    width: 291px;
+    gap: 12px;
+    margin-top: 1.5rem;
+    border-radius: 0.25rem;
+    color: var(--background);
+    font-size: 1rem;
+    font-weight: 600;
+}
