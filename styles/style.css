@@ -269,9 +269,12 @@
         bottom: 3rem;
         margin-right: 32px;
     }
+}
+@media only screen and (max-width: 470px) {
 
     .banner-title h1{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         line-height: 1.4;
     }
+
 }
