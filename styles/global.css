@@ -13,6 +13,8 @@ html {
     --text-color: #ffffff;
     --blue-button: #25E1E1;
     --border-color: #2D2F31;
+    --button-hover: #00B9B9;
+    --text-card-project: #D4D4D4;
 }
 
 .border{

@@ -123,6 +123,11 @@
     color: var(--background);
     font-size: 1rem;
     font-weight: 600;
+    transition: 0.2s;
+}
+
+.banner-button a:hover {
+    background: var(--button-hover);
 }
 
 .button-hanburger-mobile {
@@ -513,11 +518,145 @@
         }
 
         .about-container {
-            height: 800px;
+            height: 50rem;
         }
 
         .about-text h2 {
             padding-top: 4rem;
         }
+}
+
+/* Estilização seção de projetos */
+
+.project-container {
+    border-top: 1px solid var(--border-color);
+}
+
+.project-content {
+    padding: 0 4.5rem;
+    height: 47rem;
+    max-width: 100%;
+}
+
+.project-text h2{
+    padding-top: 8.375rem;
+    padding-bottom: 4rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    display: flex;
+}
+
+@media only screen and (max-width: 1070px) {
+    .project-content {
+        padding: 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .project-content {
+        padding: 0 1.5rem;
+    }
+}
+ 
+/* Estilização dos cards de projetos */
+
+.project-cards {
+    display: grid; 
+    grid-template-columns: repeat(4, 2fr);
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-cards .card {
+    height: 25rem;
+    width: 19rem;
+    background: #000000;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    display: block;
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 303px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.card-content {
+    color: var(--text-color);
+    margin-left: 20px;
+    margin-top: 1rem;
+}
+
+.card-content h3 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+}
+
+.card-content h3 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.card-content p {
+    color: var(--text-card-project);
+    margin-bottom: 2rem;
+    font-weight: 400;
+    width: 250px;
+    display: inline-block;
+}
+
+.link-button {
+    display: flex;
+    border: 2px solid var(--blue-button);
+    width: 251px;
+    height: 3rem;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-button a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--blue-button);
+}
+
+@media only screen and (max-width: 1385px) {
+    .project-text h2 {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1305px) {
+
+    .project-cards {
+        display: grid; 
+        grid-template-columns: repeat(2, 303px);
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .project-content {
+        height: 74rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .project-cards {
+        display: grid; 
+        grid-template-columns: repeat(1, 303px);
+
+    }
+    
+    .project-content {
+        height: 127rem;
+    }
     
 }
