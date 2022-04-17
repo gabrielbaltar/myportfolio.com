@@ -281,7 +281,8 @@
 
 @media only screen and (max-width: 520px) {
     .banner-content {
-        background-position: -125px -50px;
+        background-position: -123px -50px;
+        
     }
 }
 
@@ -371,6 +372,152 @@
 
 /* Estilização Sobre mim */
 
+.about-container {
+    height: 650px;
+    display: grid; 
+    align-items: center;
+}
+
 .about-content {
-    height: 800px;
+    color: var(--text-color);
+    height: 25rem;
+    display: grid;
+    grid-template-columns: 8fr 6fr;
+    grid-template-rows: 400px;
+    padding: 0 4.5rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4rem;
+    width: 54ch;
+}
+
+.about-text h2{
+    font-size: 2rem;
+    display: flex;
+    font-weight: 700;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1260px) {
+
+    .about-content {
+        grid-template-columns: 3fr 1fr;
+        padding: 0 4.5rem;
+    }
+
+    .about-image img{
+        height: 360px;
+    }
+
+}
+
+@media only screen and (max-width: 1070px) {
+    .about-content {
+        padding: 0 3rem;
+    }
+    .about-text {
+        width: 43ch;
+    } 
+}
+
+@media only screen and (max-width: 930px) {
+
+    .about-content {
+        grid-template-columns: 3fr 1fr;
+        padding: 0 4.5rem;
+    }
+
+    .about-content {
+        padding: 0 1.5rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+
+    .about-text {
+        width: 40ch;
+    } 
+}
+
+
+@media only screen and (max-width: 830px) {
+
+    .about-text {
+        width: 35ch;
+    } 
+}
+
+@media only screen and (max-width: 760px) {
+
+    .about-container {
+        height: 850px;
+        display: grid; 
+        align-items: start;
+        justify-content: center;
+    }
+    .about-content{
+        grid-template-columns: 1fr;
+    }
+
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 4rem;
+        width: 50ch;
+        margin-top: 3rem;
+    }
+
+    .about-text h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .about-text p {
+        text-align: center;
+    }
+
+    .about-image img{
+        height: 360px;
+        margin-left: 55px;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+        .about-text {
+            width: 28ch;
+            margin-top: 3rem;
+            text-align: center;
+            margin-left: 0px;
+        }
+
+        .about-image img{
+            height: 260px;
+            margin-left: 10px;
+            margin-top: 5rem;
+        }
+
+        .about-container {
+            height: 800px;
+        }
+
+        .about-text h2 {
+            padding-top: 4rem;
+        }
+    
 }
