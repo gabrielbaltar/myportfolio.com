@@ -54,9 +54,6 @@
   background: var(--background);
   height: 600px;  
   padding: 0 4.5rem;
-  background-image: url('../images/circle.svg');
-  background-repeat: no-repeat;
-  background-position: 290px -30px;
   position: relative;
 } 
 
@@ -66,6 +63,10 @@
     grid-template-rows: 531px;
     justify-content: center;
     align-items: center;
+    position: relative;
+    background-image: url('../images/circle.svg');
+    background-repeat: no-repeat;
+    background-position: 220px -30px;
     position: relative;
 }
 
@@ -140,15 +141,15 @@
 /* Media Queries Banner e Menu */
 
 @media only screen and (max-width: 1330px) {
-    .sectionOne {
-        background-position: 130px 0px;
+    .banner-content{
+        background-position: 80px 0px;
     }
 }
 
 @media only screen and (max-width: 1270px) {
 
-    .sectionOne {
-        background-position: 10px 0px;
+    .banner-content {
+        background-position: 30px -20px;
     }
 
     .banner-title h1 {
@@ -193,6 +194,10 @@
     .sectionOne {
         padding: 0px 1.5rem;
     }
+
+    .banner-content {
+        background-position: 20px -20px;
+    }
 }
 
 @media only screen and (max-width: 860px) {
@@ -209,10 +214,6 @@
         cursor: pointer;
     }
 
-    .sectionOne {
-        background-position: -50px 0px;
-    }
-
     .banner-content {
         display: grid;
         grid-template-columns: 1fr;
@@ -220,6 +221,7 @@
         justify-content: center;
         align-items: center;
         position: relative;
+        background-position: 20px -50px;
     }
 
     .sectionOne {
@@ -276,6 +278,13 @@
     }
     
 }
+
+@media only screen and (max-width: 520px) {
+    .banner-content {
+        background-position: -125px -50px;
+    }
+}
+
 @media only screen and (max-width: 470px) {
 
     #moon {
@@ -348,7 +357,7 @@
 
 @media only screen and (max-width: 455px) {
     .tools-content h2 {
-        padding-bottom: 3.5rem;
+        padding-bottom: 3rem;
         font-size: 1.4rem;
     }
     .tools-container {
