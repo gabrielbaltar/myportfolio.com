@@ -348,11 +348,20 @@
 
 @media only screen and (max-width: 455px) {
     .tools-content h2 {
-        padding-bottom: 2.5rem;
-        font-size: 1rem;
+        padding-bottom: 3.5rem;
+        font-size: 1.4rem;
     }
     .tools-container {
-        height: 400px;
+        height: 25rem;
+    }
+
+    .tools-content {
+        padding: 0px 2rem;
     }
 }
 
+/* Estilização Sobre mim */
+
+.about-content {
+    height: 800px;
+}
