@@ -1125,11 +1125,14 @@
         justify-content: center;
     }
 
+    .footer-social-icons {
+        padding-left: 0;
+    }
+
     .footer-social-icons #social-icons-title H2 {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-left: 2rem;
     }
 }
 
