@@ -510,7 +510,7 @@
     .about-text h2 {
         display: flex;
         justify-content: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .about-text p {
@@ -589,12 +589,15 @@
     align-items: center;
 }
 
+/* .card {
+    border: 1px solid var(--border-color);
+} */
+
 .project-cards .card {
     height: 395px;
     width: 290px;
     background: var(--card-background);
     border-radius: 4px;
-    border: 1px solid var(--border-color);
     display: block;
 }
 .card-image {
@@ -603,7 +606,6 @@
     align-items: center;
     height: 140px;
     width: 289px;
-    border-bottom: 1px solid var(--border-color);
 }
 
 .card-content {
@@ -674,7 +676,7 @@
     .project-text h2 {
         justify-content: center;
         padding-top: 3rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
     .project-cards {
@@ -851,3 +853,298 @@
         width: 275px;
     }
 }
+
+/* Estilização da seção projetos di Github */
+
+.github-container {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.github-content {
+    padding: 0 4.5rem;
+    height: 501px;
+    width: 100%;
+}
+
+.github-text h2 {
+    padding-top: 8.9375rem;
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 4.3125rem;
+}
+
+.github-cards {
+    display: flex;
+    gap: 4.8125rem;
+    flex-wrap: wrap;
+}
+
+.github-cards .card {
+    min-width: 335px;
+    height: 107px;
+    background: var(--card-background);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    gap: 3.375rem;
+}
+
+.icon-and-text {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-and-text p{
+    color: var(--text-color);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+/* Responsivo da seção Projetos do Github */
+
+@media only screen and (max-width: 1310px) {
+    .github-cards {
+        gap: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .github-content {
+        height: 590px;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    .github-content {
+        padding: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    .github-content {
+        padding: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+
+    .github-content {
+        height: 670px;
+    }
+
+    .github-text h2 {
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+    .github-cards {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .github-cards .card {
+        min-width: 325px;
+    }
+
+    .github-cards {
+        gap: 1rem;
+    }
+}
+
+/* Estilização do footer */
+
+.footer-content {
+    height: 380px;
+    padding: 0 4.5rem;
+    display: flex;
+    padding-top: 88px;
+    justify-content: space-between;
+}
+
+.footer-text {
+    display: flex;
+    gap: 107px;
+    height: 200px;
+}
+
+.site-map-list {
+    color: var(--text-color);
+}
+
+.site-map-list ul li#site-map-title{
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.site-map-list ul li{
+    font-size: 1rem;
+    color: var(--text-card-project);
+    margin-bottom: 1rem;
+}
+
+
+.contact-list {
+    color: var(--text-color);
+}
+
+.contact-list ul li#contact-title{
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.contact-list ul li{
+    font-size: 1rem;
+    color: var(--text-card-project);
+    margin-bottom: 1rem;
+}
+
+#social-icons-title h2 {
+    color: var(--text-color);
+    padding-bottom: 1.5rem;
+}
+
+.footer-social-icons {
+    padding-left: 2rem;
+}
+
+.body-icon {
+    height: 44px;
+    width: 44px;
+    border-radius: 4px;
+    background: var(--card-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons-button {
+    display: flex;
+    gap: 0.75rem;
+}
+
+@media only screen and (max-width: 1120px) {
+
+    .footer-text {
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+    .footer-content {
+        height: 450px;
+    } 
+
+    .footer-content {
+        height: 380px;
+        display: flex;
+        padding-top: 32px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+
+    .footer-social-icons {
+        padding-left: 2rem;
+    }
+
+    .footer-social-icons{
+        justify-content: center;
+    }
+
+    .footer-content {
+        height: 500px;
+        padding-top: 50px;
+    }    
+
+    .footer-text {
+        display: flex;
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+
+    .footer-social-icons{
+        justify-content: center;
+        padding-left: 2rem;
+    }
+
+    .footer-content {
+        height: 500px;
+        padding-top: 50px;
+    }    
+
+    .footer-text {
+        display: flex;
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .footer-text #logo img{
+        padding-left: 1.625rem;
+        padding-bottom: 2rem;
+    }
+    
+   .footer-text {
+       justify-content: center;
+       height: 700px;
+       gap: 3.75rem;
+       flex-direction: column;
+   }
+
+   .footer-content {
+        height: 1000px;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+    }  
+
+    .contact-list ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .site-map-list ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-social-icons #social-icons-title H2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+ 
+    .footer-content {
+     height: 880px;
+ }  
+ }
+
+ @media only screen and (max-width: 770px) {
+    
+    .footer-text {
+        gap: 1.25rem;
+    }
+ }
+
+
