@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- CSS-->
     <link rel="stylesheet" href="./styles/style.min.css">
+    <link rel="stylesheet" href="./styles/global.css">
 <body>
     <!--Menu principal-->
    <section class="background border">
@@ -45,9 +46,9 @@
         <div class="container sectionOne">
             <div class="banner-content">
                 <div class="banner-title">
-                    <img id="start-1" src="./images/star-1.svg" alt="Estrela">
-                    <h1>Olá, me chamo <span>Gabriel Baltar</span> sou Designer e Desenvolvedor web. </h1>
-                    <div class="banner-button">
+                    <img data-anime="500" class="fadeInDown" id="start-1" src="./images/star-1.svg" alt="Estrela">
+                    <h1 data-anime="400" class="fadeInDown">Olá, me chamo <span>Gabriel Baltar</span> sou Designer e Desenvolvedor web. </h1>
+                    <div data-anime="200" class="banner-button fadeInDown">
                         <a href="#programming">Entrar em contato<img src="./images/seta-esquerda.svg" alt="icone botao"></a>
                     </div>
 
@@ -59,10 +60,10 @@
                 </div>
             </div>
 
-            <img id="circle-1" src="./images/circle-1.svg" alt="circulo">
-            <img id="star-2" src="./images/start2.svg" alt="Estrela2">
-            <img id="circle-3" src="./images/circle-3.svg" alt="circulo">
-            <img id="circle-4" src="./images/circle-4.svg" alt="circulo">
+            <img data-anime="400" class="fadeInDown" id="circle-1" src="./images/circle-1.svg" alt="circulo">
+            <img data-anime="700" class="fadeInDown" id="star-2" src="./images/start2.svg" alt="Estrela2">
+            <img data-anime="500" class="fadeInDown" id="circle-3" src="./images/circle-3.svg" alt="circulo">
+            <img data-anime="600" class="fadeInDown" id="circle-4" src="./images/circle-4.svg" alt="circulo">
         </div>
        </section>
    </main>
@@ -71,7 +72,7 @@
         <div class="tools-content container">
             <h2>Linguagem e ferramentas</h2>
 
-            <div class="content-tools">
+            <div data-anime="700" class="content-tools fadeInUp">
                 <img src="./images/logos/css.svg" title="CSS 3" alt="css">
                 <img src="./images/logos/bootstrap.svg" title="Bootstrap" alt="bootstrap">
                 <img src="./images/logos/figma.svg" title="Figma" alt="figma">
@@ -96,7 +97,7 @@
 
    <article id="about" class="about-container background">
        <div class="about-content container">
-            <div class="about-text">
+            <div data-anime="600" class="about-text fadeInLeft">
                 <h2>Sobre mim</h2>
                 <p>Meu nome é Gabriel Baltar, tenho 23 anos de idade, sou UI Designer e Desenvolvedor Web. Atualmente trabalho como UI Designer na Infobase IInterativa mas pretendo seguir minha carreira como desenvolvedor web. Estou no 7º período do bacharelado em Sistemas de Informação.
                 <br><br>Gosto de assistir e jogar basquete nas horas vagas e praticar a maior parte do tempo desenvolvimento web e boas práticas de design.</p>
@@ -387,5 +388,7 @@
         </div>
     </footer>
 
+    <script src="./js/simple-anime.js"></script>
+    <script src="#"></script>
 </body>
 </html>
