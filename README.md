@@ -30,4 +30,4 @@ desenvolvimento web.
 
 ## 🔖 Layout
 
-Link para acessar o layout no figma [Link do projeto](https://www.figma.com/file/uNqQZjeBF57j6jj6oL5Vvb/My-portfolio?node-id=3%3A8).
+Link para acessar o portfolio [Link do projeto](https://gabrielbaltar.github.io/myportfolio.com/).
