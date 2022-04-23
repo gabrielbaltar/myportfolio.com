@@ -25,21 +25,34 @@
                 <img src="./images/logo.svg.svg" alt="Logo">
             </div>
 
-            <ul>
+            <ul class="menu-links-main">
                 <li><a href="#tools">Ferramentas</a></li>
                 <li><a href="#about">Sobre mim</a></li>
                 <li><a href="#projects-ux">Projetos</a></li>
                 <li><a href="#experience">Experiência</a></li>
                 <li><a href="#programming">Programação</a></li>
-                <li><a href="https://www.youtube.com/watch?v=Mutjus8WI2w"></a>Contato</li>
+                <li><a href="#">Contato</a></li>
             </ul>
 
-            <div class="button-hanburger-mobile">
+            <div id="close" class="button-hanburger-mobile">
                 <a href="#"><img src="./images/menu-hamburguer.svg" alt="Menu menu-hamburguer"></a>
             </div>
         </nav>
     </div>
    </section>
+
+   <div class="menu-responsivo">
+        <div class="menu-content">
+            <ul>
+                <li class="link-section"><a href="#about">Ferramentas</a></li>
+                <li class="link-section"><a href="#">Sobre mim</a></li>
+                <li class="link-section"><a href="#">Projetos</a></li>
+                <li class="link-section"><a href="#">Experiência</a></li>
+                <li class="link-section"><a href="#">Programação</a></li>
+                <li id="button-contact"><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </div>
    <!--Banner da Home-->
    <main>
        <section class="background">
@@ -49,7 +62,7 @@
                     <img data-anime="500" class="fadeInDown" id="start-1" src="./images/star-1.svg" alt="Estrela">
                     <h1 data-anime="400" class="fadeInDown">Olá, me chamo <span>Gabriel Baltar</span> sou Designer e Desenvolvedor web. </h1>
                     <div data-anime="200" class="banner-button fadeInDown">
-                        <a href="#programming">Entrar em contato<img src="./images/seta-esquerda.svg" alt="icone botao"></a>
+                        <a href="mailto:gabriel.baltar21@hotmail.com">Entrar em contato<img src="./images/seta-esquerda.svg" alt="icone botao"></a>
                     </div>
 
                     <img id="moon" src="./images/moon.svg" alt="Lua">
@@ -68,7 +81,7 @@
        </section>
    </main>
    <!--Linguagem e Ferramentas-->
-   <article id="#tools" class="tools-container">
+   <article id="tools" class="tools-container">
         <div class="tools-content container">
             <h2>Linguagem e ferramentas</h2>
 
@@ -389,6 +402,6 @@
     </footer>
 
     <script src="./js/simple-anime.js"></script>
-    <script src="#"></script>
+    <script src="./js/scripts.js"></script>
 </body>
 </html>
