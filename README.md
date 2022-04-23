@@ -30,4 +30,4 @@ desenvolvimento web.
 
 ## 🔖 Layout
 
-Link para acessar o portfolio [Link do projeto](https://gabrielbaltar.github.io/myportfolio.com/){:target="\_blank" rel="noopener"}
+Link para acessar o portfolio [Link do projeto](https://gabrielbaltar.github.io/myportfolio.com/)
