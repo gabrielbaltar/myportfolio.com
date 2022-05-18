@@ -105,3 +105,9 @@ html {
         visibility: visible;
     }  
 }
+
+.github-cards .card {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1.5rem;
+}
