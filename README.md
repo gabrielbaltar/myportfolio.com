@@ -30,4 +30,4 @@ desenvolvimento web.
 
 ## 🔖 Layout
 
-Link para acessar o portfolio [Link do projeto](https://gabrielbaltar.github.io/myportfolio.com/)
+Link para acessar o portfolio [Link do projeto](https://myportfolio-lemon-eight.vercel.app/)
